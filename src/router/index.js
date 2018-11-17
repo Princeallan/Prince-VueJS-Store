@@ -16,12 +16,12 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/',
+      path: '/admin',
       name: 'Admin',
       component: Admin,
     },
     {
-      path: '/',
+      path: '/cart',
       name: 'Cart',
       component: Cart,
     },
