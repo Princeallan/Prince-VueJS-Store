@@ -9,14 +9,13 @@
 </template>
 
 <script>
-/* eslint indent: "error" */
-
-export default {
+/* eslint-disable */
+  export default {
+    name: 'home',
     data() {
-        return {
-            title: 'welcome to our vue App',
-        };
+      return {
+        title: 'Welcome to the App',
+      };
     },
-};
-
+  };
 </script>
