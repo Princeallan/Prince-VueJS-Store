@@ -17,3 +17,9 @@ const manufacturerSchema = Schema({
   id: ObjectId,
   name: String,
 });
+
+const Product = model('Product', productSchema);
+const Manufacturer = model('Manufacturer', manufacturerSchema);
+
+module.exports = { Product, Manufacturer };
+
