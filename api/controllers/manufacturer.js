@@ -1,6 +1,6 @@
 const Model = require('../model');
 
-const {Product, Manufacturer} = Model;
+const { Product, Manufacturer } = Model;
 
 const manufacturerController = {
   all(req, res) {
